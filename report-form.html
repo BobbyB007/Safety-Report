@@ -1,0 +1,154 @@
+<section class="section">
+	<h1>Make a safety Report</h1>
+
+	<div class="form-progress">
+		<progress class="form-progress-bar" min="0" max="100" value="0" step="33" aria-labelledby="form-progress-completion"></progress>
+		
+		<div class="form-progress-indicator one active"></div>
+		<div class="form-progress-indicator two"></div>
+		<div class="form-progress-indicator three"></div>
+		<div class="form-progress-indicator four"></div>
+		
+		<p id="form-progress-completion" class="js-form-progress-completion sr-only" aria-live="polite">0% complete</p>
+	</div>
+	
+	
+	<div class="animation-container">
+		<!-- Step one -->
+		<div class="form-step js-form-step" data-step="1">
+
+			<p class="form-instructions"><strong>Click the continue button to show form progression.</strong><br>
+				Please fill out the fields below to make your report.
+			</p>
+
+				
+						<form action="" name="form-step-1">
+				<div class="fieldgroup">
+					<input type="text" name="firstName" id="firstName" />
+					<label for="firstName">UserName / Anonymous / Airport</label>
+					<p>User data will be filled at login</p>
+				</div>
+				
+	<!--Might need to make this a div
+
+Will need to ad some jave a script for the pop ups. 
+
+-->
+				<form action="/action_page.php">
+  <input type="checkbox" name="Person" value="Person"><br>
+					A person is involved<br>
+  <input type="checkbox" name="AirPlane" value="Aircraft"><br>
+					An aircraft is involved<br>
+ <input type="checkbox" name="Equipment" value="Equipment"><br>
+				Equipment is involved<br>
+  
+</form>
+
+				
+				
+				<p> Pop ups..<br>
+					If a person is injured and needs more than first-aid <br>
+					or<br>
+					Equipment is damaged<br>
+					or<br>
+					an aircraft is damaged report to manager immediately
+				</p>
+
+				<div class="buttons">
+							<button type="button" class="btn btn-alt js-reset">Reset</button>
+
+						<button type="submit" class="btn">Continue</button>
+				</div>
+			</form>
+
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!-- Step two -->
+			<div class="form-step js-form-step waiting hidden" data-step="2">
+
+			
+
+				<form action="" name="form-step-2">
+						
+							<div class="custom-select" style="width:200px;">
+								<select>
+									<option value="0">Select Location</option>
+									<option value="1">Lounge</option>
+									<option value="2">Landside</option>
+									<option value="3">Hangar 1</option>
+									<option value="4">Hangar 2</option>
+									<option value="5">Airfield</option>
+								</select>
+							</div>
+
+				<div class="fieldgroup">
+					<input type="text" name="postalCode" id="postalCode" />
+					<label for="postalCode">Enter aircraft registration </label>
+				</div>
+					
+				<div class="custom-select" style="width:200px;">
+							<select>
+								<option value="0">Person select</option>
+								<option value="1">EXJ employee</option>
+								<option value="2">Passenger</option>
+								<option value="3">Crew</option>
+								<option value="4">Other</option>
+							</select>
+				</div>
+				<p>will be select box if a person is involved and a reg entry if a plane is involved.</p>
+
+
+
+						<div class="buttons">
+								<button type="button" class="btn btn-alt js-reset">Reset</button>
+
+								<button type="submit" class="btn">Continue</button>
+						</div>
+				</form>
+
+		</div>
+		
+		
+		
+					<!-- Step three -->
+			<div class="form-step js-form-step waiting hidden" data-step="3">
+<form action="" name="form-step-3">
+							<p class="form-instructions"><strong>describe the situation with as much detail as possible.</strong>
+						<br> 	
+						<div class="fieldgroup">
+								<textarea rows="20" cols="55" placeholder="Write here..."></textarea>
+						</div>
+				
+						<div class="buttons">
+								<button type="button" class="btn btn-alt js-reset">Reset</button>
+
+								<button type="submit" class="btn">submit</button>
+						</div>
+
+				</form>
+
+		</div>
+		
+		
+		
+		<!-- Step four -->
+			<div class="form-step js-form-step waiting hidden" data-step="4">
+
+					<p class="form-instructions"><strong>Thank you!</strong>
+						<br> here will be infomation about what will happen next.<br>
+						you will get an email...
+				
+				</p>
+
+		</div>
+	</div>
+</section>
