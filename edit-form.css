@@ -1,11 +1,4 @@
-@import "https://netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.min.css";
 
-/*
-  FontAwesome - The best icon font ever :)
-  https://fortawesome.github.io/Font-Awesome/
-
-  Thanks to Dave Gandy and all involved in FontAwesome !!!
-*/
 
 [class^="icon"],[class*=" icon"]{font-family:FontAwesome;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;}
 .iconUser:before{content:"\f007";margin-right:6px;}
