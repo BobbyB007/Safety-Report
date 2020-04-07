@@ -145,18 +145,24 @@ General styles
   border-bottom: none;
 }
 
-.talk-title {
+.report-title {
   margin: 0;
   padding: 0;
   line-height: 1.3em;
 }
 
-.talk-speaker {
+.reported-by {
   margin: .5em 0;
   padding: 0;
 }
 
-.talk-time {
+.report-location{
+  margin: .5em 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.report-time {
   margin: .5em 0;
   padding: 0;
   font-weight: bold;
