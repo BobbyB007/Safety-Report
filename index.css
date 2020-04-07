@@ -91,7 +91,7 @@ General styles
 
 .masthead {
   padding: 2em;
-  background: #272427;
+  background: #25376A;
   text-align: center;
 }
 
@@ -121,8 +121,7 @@ General styles
 
 .page-title {
   text-align: center;
-  background-image: url(https://2017.europe.wordcamp.org/files/2017/01/background-pattern-01.png);
-  background-color: #f5ebe0
+  background-color: rgb(105, 58, 94)
 }
 
 .main-content {
@@ -170,7 +169,7 @@ General styles
 }
 
 .sidebar {
-  background: #272427;
+  background: #4d474d;
 }
 
 .info {
@@ -187,15 +186,15 @@ General styles
 
 .a11y {
   color: #272427;
-  background: #f1e4d5;
+  background: #6899c7;
 }
 
 .coc {
-  background: #e7ab46;
+  background: #5ca5e9;
 }
 
 .contact {
-  background: #977944;
+  background: #444997;
 }
 
 .faq {
@@ -204,7 +203,7 @@ General styles
 
 .colophon {
 	padding: 1em 2em;
-  background: #272427;
+  background: #a189a1;
 	color: white;
 }
 
