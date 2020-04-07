@@ -91,7 +91,7 @@ General styles
 
 .masthead {
   padding: 2em;
-  background: #25376A;
+  background: rgb(155, 111, 206);
   text-align: center;
 }
 
@@ -121,7 +121,7 @@ General styles
 
 .page-title {
   text-align: center;
-  background-color: rgb(105, 58, 94)
+  background-color: #cc9966;
 }
 
 .main-content {
